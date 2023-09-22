@@ -15,8 +15,5 @@ connections = {
 gr = Graph(connections)
 ds, ps = gr.find_path(1, 9)
 
-D, P = gr.Dijkstra(1)
-print(D)
-print(P)
-# print('Distance', ds)
-# print('Path', ps)
+print('Distance', ds)
+print('Path', ps)
